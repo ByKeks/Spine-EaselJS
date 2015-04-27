@@ -39,7 +39,7 @@ class Example
       @hero.setSkin('White')
       @spineComplete(@hero, 1)
 
-    createjs.Ticker.addEventListener("tick", ((e)=>@handleTick(e)))
+    createjs.Ticker.on("tick", ((e)=>@handleTick(e)))
 
   spineComplete: (spine, animateIndex) ->
     spine.state.setAnimationByName(0, spine.state.data.skeletonData.animations[animateIndex].name, true)
