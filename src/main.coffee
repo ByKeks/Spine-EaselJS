@@ -3,7 +3,7 @@ class Example
   constructor: ->
 
     @canvas = document.getElementById("myCanvas")
-    createjs.Ticker.setFPS(160)
+    createjs.Ticker.setFPS(60)
 
     @stats = new Stats()
 

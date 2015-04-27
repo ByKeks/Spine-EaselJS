@@ -3,7 +3,7 @@ var Example;
 Example = (function() {
   function Example() {
     this.canvas = document.getElementById("myCanvas");
-    createjs.Ticker.setFPS(160);
+    createjs.Ticker.setFPS(60);
     this.stats = new Stats();
     document.body.appendChild(this.stats.domElement);
     this.stats.domElement.style.position = "absolute";
