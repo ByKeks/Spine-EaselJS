@@ -1,0 +1,12 @@
+{
+  "name": "easeljs-spine",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-coffee": "^2.1.1"
+  }
+}
