@@ -3,6 +3,8 @@ Spine-EaselJS
 
 Rendering a Spine animation with EaselJS
 
+Spine-EaselJS [Demo](http://spine.by-keks.ru/)
+
 ## Spine Animation Example
 ```javascript
 
